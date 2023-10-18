@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/27/23||11:49:06" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem2" uid="Assem2" version="389">
+<AssemblyFile name="Assem2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Revolute Joint 2-1" uid="Revolute Joint 2-1" entityUid="Revolute Joint 2*:*Default">
+<Transform>
+<Rotation>-0.012848381227328669 -0.95880237712713834 0.28378322838953357 -0.0038024809505916414 -0.28375775205940468 -0.95888846029390418 0.99991022608955127 -0.013399244812390956 2.6107526540117502e-13</Rotation>
+<Translation>0.059552658481725647 0.070800821898412164 0.18462756799663677</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Motor-3" uid="Servo Motor-3" entityUid="Servo Motor*:*Default">
+<Transform>
+<Rotation>3.0975681739364174e-14 -0.28378322838952397 -0.95888846029390684 9.455012982922452e-15 0.95888846029390706 -0.28378322838952419 1 -2.6560185161597967e-16 3.2371694623082944e-14</Rotation>
+<Translation>0.10439069824915109 0.047386369422575368 0.18177980946274697</Translation>
+</Transform>
+</Instance>
+<Instance name="Base Frame-1" uid="Base Frame-1" grounded="true" entityUid="Base Frame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.051513128535424044 0.065807122274565227 0.078427567996598335</Translation>
+</Transform>
+</Instance>
+<Instance name="Link 2-1" uid="Link 2-1" entityUid="Link 2*:*Default">
+<Transform>
+<Rotation>-0.28378322838953601 0.11416709723647772 0.95206772510857085 0.95888846029390318 0.033787774878112034 0.28176463047013817 -1.6736710356609106e-16 0.99288683150567703 -0.11906191592032009</Rotation>
+<Translation>0.13877085044653753 0.10071128119647559 0.32894445803773276</Translation>
+</Transform>
+</Instance>
+<Instance name="Revolute Joint 1-1" uid="Revolute Joint 1-1" entityUid="Revolute Joint 1*:*Default">
+<Transform>
+<Rotation>0.95888846029390384 -0.28378322838953413 0 0.2837832283895344 0.95888846029390384 4.0851653989197572e-16 -1.9621487456865093e-16 -3.6700021266884282e-16 0.99999999999999989</Rotation>
+<Translation>0.047264249003180256 0.065808328284881312 0.15262756799659816</Translation>
+</Transform>
+</Instance>
+<Instance name="Revolute Joint 3-1" uid="Revolute Joint 3-1" entityUid="Revolute Joint 3*:*Default">
+<Transform>
+<Rotation>0.95206772510857196 0.11416709723647563 0.28378322838953285 0.28176463047013511 0.033787774878111979 -0.95888846029390407 -0.11906191592031794 0.99288683150567714 1.0894063429134349e-15</Rotation>
+<Translation>0.060283359545904761 0.077482892829864092 0.32667383124922694</Translation>
+</Transform>
+</Instance>
+<Instance name="Revolute Joint 4-1" uid="Revolute Joint 4-1" entityUid="Revolute Joint 4*:*Default">
+<Transform>
+<Rotation>0.81975635790138512 -0.49746014208684963 0.28378322838953635 0.24260705532612248 -0.14722342687621251 -0.95888846029390318 0.51878832907674788 0.85490272523472288 1.9121768595563503e-16</Rotation>
+<Translation>0.21222195689410242 0.12192771351250306 0.31977669051183089</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Attacher-1" uid="Motor Attacher-1" entityUid="Motor Attacher*:*Default">
+<Transform>
+<Rotation>-0.28378322838953679 0 0.95888846029390296 0.95888846029390296 5.1309979304172166e-16 0.28378322838953679 -4.8264844440059415e-16 1 -1.7722601019307716e-16</Rotation>
+<Translation>0.045476414664325962 0.071849325584732962 0.16992756799659814</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Attacher-2" uid="Motor Attacher-2" entityUid="Motor Attacher*:*Default">
+<Transform>
+<Rotation>0.28378322838952397 0 -0.95888846029390684 -0.95888846029390706 3.0120995309143498e-16 -0.28378322838952419 2.5135198093709164e-16 1 1.6352275490442158e-16</Rotation>
+<Translation>0.049052083342035084 0.059767330985029413 0.16992756799659819</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Motor-1" visible="false" uid="Servo Motor-1" entityUid="Servo Motor*:*Default">
+<Transform>
+<Rotation>-2.2736805537070386e-14 0.28378322838953679 -0.95888846029390296 -7.2579290563105064e-15 -0.95888846029390307 -0.28378322838953673 -0.99999999999999989 5.0722033915303271e-16 2.3861738992465332e-14</Rotation>
+<Translation>0.085163742061141079 0.11235323345908854 0.18747532653044396</Translation>
+</Transform>
+</Instance>
+<Instance name="End Effector-1" uid="End Effector-1" entityUid="End Effector*:*Default">
+<Transform>
+<Rotation>0.81975635790138135 -0.49746014208684913 0.28378322838954767 0.24260705532613611 -0.1472234268762119 -0.95888846029389962 0.51878832907674721 0.8549027252347231 7.9242168382620548e-15</Rotation>
+<Translation>0.24367961111325262 0.13123761246482935 0.30985692375419943</Translation>
+</Transform>
+</Instance>
+<Instance name="Bushing-1" uid="Bushing-1" entityUid="Bushing*:*Default">
+<Transform>
+<Rotation>0.80997494493523514 -0.51323256703140863 -0.28378322839011 0.23971224423580076 -0.15189127914053902 0.9588884602937332 -0.53523698353215332 -0.84470194237932306 -4.9960036108132044e-16</Rotation>
+<Translation>0.05742428426474834 0.077992485353175864 0.18462756799666175</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Frame-1</Uid>
+</InstancePath>
+<Position>-0.004248879532520608 1.2060105148703482e-06 0.072899999999999854</Position>
+<Axis>0 4.0759569579152942e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0012999999999999956</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base Frame-1</Uid>
+</InstancePath>
+<Position>-0.0042488795325205872 1.2060105149258593e-06 0.17472337649086273</Position>
+<Axis>0 -4.0759569579152981e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>0 0 0.012899999999999995</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 2-1</Uid>
+</InstancePath>
+<Position>0.1419987144307984 -0.004500000000000004 0.0075000000000371367</Position>
+<Axis>-2.6152034964104454e-13 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0045499999999999985</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 2-1</Uid>
+</InstancePath>
+<Position>-0.050001285569198195 0.010500000000000009 -0.0055000000000130639</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 3-1</Uid>
+</InstancePath>
+<Position>0 0.012499999999999956 0.00070000000000002005</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>0.026499999999999996 0.013300000000000006 0.0022999999999999965</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Attacher-1</Uid>
+</InstancePath>
+<Position>0 -0.014999999999999986 0.035000000000000003</Position>
+<Axis>1.1564823173178707e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>-0.02650000000000001 0.013300000000000006 0.0022999999999999965</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor Attacher-1</Uid>
+</InstancePath>
+<Position>0.0070000000000000062 -0.013499999999999984 -0.026499999999999989</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>0.026499999999999996 0.013300000000000006 0.0022999999999999965</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor Attacher-1</Uid>
+</InstancePath>
+<Position>0.0070000000000000062 -0.013499999999999984 0.02650000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>0.026499999999999996 -0.013299999999999992 0.0022999999999999965</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Attacher-2</Uid>
+</InstancePath>
+<Position>0 -0.014999999999999986 0.035000000000000003</Position>
+<Axis>1.1564823173178727e-16 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>-0.02650000000000001 -0.013300000000000006 0.0022999999999999965</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor Attacher-2</Uid>
+</InstancePath>
+<Position>0.0070000000000000132 -0.013499999999999984 0.026499999999999996</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 1-1</Uid>
+</InstancePath>
+<Position>0.026499999999999996 -0.013299999999999992 0.0022999999999999965</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor Attacher-2</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 -0.013499999999999984 -0.026499999999999996</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Attacher-1</Uid>
+</InstancePath>
+<Position>0.015000000000000013 0 0.035000000000000003</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0.019547758533848103 0.012576131962468706 0.071050050000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Attacher-1</Uid>
+</InstancePath>
+<Position>0.090026661927610732 -0.001999999999999974 -0.021499999999999998</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0.019547758533848103 0.012576131962468706 0.071050050000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Attacher-1</Uid>
+</InstancePath>
+<Position>0.09002666192761076 -0.001999999999999974 0.021500000000000019</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0.019547758533848103 0.012576131962468706 0.028050050000000035</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0.0028477585338481104 0.013076131962468707 0.036350050000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bushing-1</Uid>
+</InstancePath>
+<Position>0 0 0.011999999999999976</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0.0028477585338481104 0.013076131962468707 0.036350050000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Bushing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 2-1</Uid>
+</InstancePath>
+<Position>-0.05000128556919764 0.012500000000000011 -0.0075000000000130795</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bushing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 2-1</Uid>
+</InstancePath>
+<Position>-1.9428902930940239e-15 0 0.0075000000000000136</Position>
+<Axis>-2.6152034964104454e-13 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0.0028477585338481104 0.078547199774334164 0.036350050000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 3-1</Uid>
+</InstancePath>
+<Position>0 0.017500000000000016 0.042092287702679962</Position>
+<Axis>1.5265566588595902e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link 2-1</Uid>
+</InstancePath>
+<Position>0.0054999999999999702 0.0054999999999999494 0.12499999999999999</Position>
+<Axis>0 -1 1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link 2-1</Uid>
+</InstancePath>
+<Position>0 -0.0074999999999363354 -0.062</Position>
+<Axis>4.6454903102602947e-16 -1 2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Revolute Joint 3-1</Uid>
+</InstancePath>
+<Position>0.018999999999999989 0.010500000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link 2-1</Uid>
+</InstancePath>
+<Position>0 -0.0074999999999931788 -0.072000000000000036</Position>
+<Axis>3.1883225904397768e-16 -1 1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 3-1</Uid>
+</InstancePath>
+<Position>0.0089999999999999941 0.013500000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 4-1</Uid>
+</InstancePath>
+<Position>0.052000000000000046 0.015500000000000014 -0.0080000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link 2-1</Uid>
+</InstancePath>
+<Position>0.007499999999999972 -0.0075000000000000622 0.12499999999999999</Position>
+<Axis>1 0 -1.4660640568116003e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 4-1</Uid>
+</InstancePath>
+<Position>0 0 -0.010000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link 2-1</Uid>
+</InstancePath>
+<Position>-0.0075000000000000205 0 0.076999999999999999</Position>
+<Axis>-1 0 1.4660640568116003e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Attacher-2</Uid>
+</InstancePath>
+<Position>0.015000000000000017 0 0.035000000000000003</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Motor-3</Uid>
+</InstancePath>
+<Position>0.019547758533848103 0.012576131962468685 0.071050050000000003</Position>
+<Axis>0 1 -1.1102230246252347e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Attacher-2</Uid>
+</InstancePath>
+<Position>0.090026661927610774 -0.0020000000000000018 0.021500000000000005</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Motor-3</Uid>
+</InstancePath>
+<Position>-0.01385224146615191 0.012576131962468685 0.07105004999999999</Position>
+<Axis>0 1 -1.1102230246252347e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Attacher-2</Uid>
+</InstancePath>
+<Position>0.090026661927610774 -0.0020000000000000018 -0.021500000000000005</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Motor-3</Uid>
+</InstancePath>
+<Position>-0.013852241466151882 0.012576131962468699 0.028050050000000007</Position>
+<Axis>0 1 -1.1102230246252347e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Revolute Joint 4-1</Uid>
+</InstancePath>
+<Position>0.052000000000000046 -0.0095000000000000084 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>End Effector-1</Uid>
+</InstancePath>
+<Position>-0.0077928911183701155 0.015999999999999986 0.0078999999999999834</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 4-1</Uid>
+</InstancePath>
+<Position>0.024199999999999444 -0.0074999999999999789 0.0044000000000002648</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>End Effector-1</Uid>
+</InstancePath>
+<Position>0.0012999999999999678 0.015999999999999959 0.0043999999999999873</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Revolute Joint 4-1</Uid>
+</InstancePath>
+<Position>0.035499999999999476 -0.0075000000000000067 -0.0043999999999997375</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>End Effector-1</Uid>
+</InstancePath>
+<Position>0.0126 0.015999999999999959 -0.0044000000000000081</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base Frame" uid="Base Frame*:*Default" version="800">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base Frame.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.8082048900423213e-12</Mass>
+<CenterOfMass>-0.0037812219828482528 6.0418053292658909e-06 0.029633755019860833</CenterOfMass>
+<Inertia>7.6313706574607126e-15 7.4853423621230036e-15 1.1058625022146747e-14 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base Frame_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bushing" uid="Bushing*:*Default" version="252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bushing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.3125137036938327e-14</Mass>
+<CenterOfMass>8.9842521395227332e-09 -8.8737759321309498e-05 0.0045975126644071046</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bushing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="End Effector" uid="End Effector*:*Default" version="252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="End Effector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.1263703798797701e-14</Mass>
+<CenterOfMass>0.0075322367321268829 0.0094985622047728795 -3.7920412605559298e-15</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="End Effector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link 2" uid="Link 2*:*Default" version="252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4002676957465425e-13</Mass>
+<CenterOfMass>-7.5169618925937694e-05 0.00033355434764336279 -0.013633706491550109</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Link 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor Attacher" uid="Motor Attacher*:*Default" version="253">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor Attacher.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.133051878101551e-14</Mass>
+<CenterOfMass>0.011561485016654818 -0.009661942328660451 -6.240731075569063e-14</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor Attacher_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Revolute Joint 1" uid="Revolute Joint 1*:*Default" version="303">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Revolute Joint 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.0604260489608201e-13</Mass>
+<CenterOfMass>-0.00017254919090950281 5.6936791429444785e-12 6.4769379026456969e-06</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Revolute Joint 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Revolute Joint 2" uid="Revolute Joint 2*:*Default" version="343">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Revolute Joint 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5331686357430499e-13</Mass>
+<CenterOfMass>0.066075854894522557 -0.00068248123034025617 -6.0691721841793165e-05</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Revolute Joint 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Revolute Joint 3" uid="Revolute Joint 3*:*Default" version="355">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Revolute Joint 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.2330582638054785e-14</Mass>
+<CenterOfMass>-0.014122982293052465 0.0063159591636733001 0.0011013272619672784</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Revolute Joint 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Revolute Joint 4" uid="Revolute Joint 4*:*Default" version="330">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Revolute Joint 4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.1257230364918482e-14</Mass>
+<CenterOfMass>0.023727869797366359 0.0003160583281220788 -0.0019110563027618878</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Revolute Joint 4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Motor" uid="Servo Motor*:*Default" version="252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.124626804251096e-12</Mass>
+<CenterOfMass>0.002847695781696585 -0.012053712929011333 0.053024946012204963</CenterOfMass>
+<Inertia>8.3447929099856196e-16 5.8776427455524824e-16 5.9939505829273179e-16 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
