@@ -1,10 +1,10 @@
 # uArmSwiftPro-Analysis-Verification
 
-Repository for MATLAB scripts, Simulink models and Python scripts
-"uArm Swift Pro: Analysis and Verifcation"
-Final Year Project of Damien Nelson Schütz 
-Student Number: SCHDAM003
-University of Cape Town
+Repository for MATLAB scripts, Simulink models and Python scripts</br>
+"uArm Swift Pro: Analysis and Verifcation"</br>
+Final Year Project of Damien Nelson Schütz </br>
+Student Number: SCHDAM003</br>
+University of Cape Town</br>
 
 **MATLAB scripts**
 
