@@ -23,7 +23,7 @@ Again select the file "uArmSwiftPro_DataFile.m" - this ensures that Simulink kno
 Open the command window for MATLAB</br>
 Add the directory that opens the folder "STEP Files for Final Simulation" </br>
 This can either be done using the command </br>
-      cd ("<yourpathfolder>") or addpath ("<yourpathfolder>")</br>
+      cd ("yourpathfolder") or addpath ("yourpathfolder")</br>
 Be sure to enclose the directory in apostrophes ("")</br>
 Run the simulation
 
