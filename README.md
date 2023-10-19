@@ -36,4 +36,4 @@ Connect the uArm to a power source and to your computer with a micro-usb cable</
 Turn the uArm on </br>
 Run the Python script - you should see it move depending on your inputs in the code
 
-If any errors occur
+If any errors occur contact me on GitHub
